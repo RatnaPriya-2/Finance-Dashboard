@@ -9,7 +9,7 @@ import {
   CartesianGrid,
   Legend,
 } from "recharts";
-import { useFinance } from "../../context/financeContext";
+import { useFinance } from "../../context/financeContext.jsx";
 
 const FinancialOverviewChart = ({ data }) => {
   const [mounted, setMounted] = useState(false);
